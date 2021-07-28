@@ -1,6 +1,6 @@
 <?php
 
-namespace rafieathari6\LaravelPageBuilder\Commands;
+namespace HansSchouten\LaravelPageBuilder\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
@@ -30,7 +30,7 @@ class PublishDemo extends Command
     public function handle()
     {
         Artisan::call('vendor:publish', [
-            '--provider' => 'rafieathari6\LaravelPageBuilder\ServiceProvider',
+            '--provider' => 'HansSchouten\LaravelPageBuilder\ServiceProvider',
             '--tag' => 'demo-theme'
         ]);
 

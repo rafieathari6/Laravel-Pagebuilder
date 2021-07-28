@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use rafieathari6\LaravelPageBuilder\LaravelPageBuilder;
+use HansSchouten\LaravelPageBuilder\LaravelPageBuilder;
 
 // handle pagebuilder asset requests
 Route::any( config('pagebuilder.general.assets_url') . '{any}', function() {
