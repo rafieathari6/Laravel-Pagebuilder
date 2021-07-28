@@ -1,10 +1,10 @@
 <?php
 
-namespace HansSchouten\LaravelPageBuilder;
+namespace rafieathari6\LaravelPageBuilder;
 
-use HansSchouten\LaravelPageBuilder\Commands\CreateTheme;
-use HansSchouten\LaravelPageBuilder\Commands\PublishDemo;
-use HansSchouten\LaravelPageBuilder\Commands\PublishTheme;
+use rafieathari6\LaravelPageBuilder\Commands\CreateTheme;
+use rafieathari6\LaravelPageBuilder\Commands\PublishDemo;
+use rafieathari6\LaravelPageBuilder\Commands\PublishTheme;
 use PHPageBuilder\PHPageBuilder;
 use Exception;
 
@@ -37,7 +37,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
                 PublishDemo::class,
             ]);
         } elseif (empty(config('pagebuilder'))) {
-            throw new Exception("No PHPageBuilder config found, please run: php artisan vendor:publish --provider=\"HansSchouten\LaravelPageBuilder\ServiceProvider\" --tag=config");
+            throw new Exception("No PHPageBuilder config found, please run: php artisan vendor:publish --provider=\"rafieathari6\LaravelPageBuilder\ServiceProvider\" --tag=config");
         }
 
         // register singleton phpPageBuilder (this ensures phpb_ helpers have the right config without first manually creating a PHPageBuilder instance)

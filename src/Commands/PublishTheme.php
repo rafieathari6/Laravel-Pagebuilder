@@ -1,6 +1,6 @@
 <?php
 
-namespace HansSchouten\LaravelPageBuilder\Commands;
+namespace rafieathari6\LaravelPageBuilder\Commands;
 
 use Illuminate\Console\Command;
 use Exception;

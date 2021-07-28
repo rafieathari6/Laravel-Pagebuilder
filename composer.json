@@ -1,11 +1,11 @@
 {
-    "name": "hansschouten/laravel-pagebuilder",
+    "name": "rafieathari6/laravel-pagebuilder",
     "description": "A drag and drop pagebuilder to manage pages in any Laravel project.",
     "keywords": [
         "laravel",
         "pagebuilder"
     ],
-    "homepage": "https://github.com/HansSchouten/Laravel-Pagebuilder",
+    "homepage": "https://github.com/rafieathari6/Laravel-Pagebuilder",
     "license": "MIT",
     "authors": [
         {
@@ -15,11 +15,11 @@
     ],
     "require": {
         "php": ">=7.0",
-        "hansschouten/phpagebuilder": "^0.19"
+        "rafieathari6/phpagebuilder": "^0.19"
     },
     "autoload": {
         "psr-4": {
-            "HansSchouten\\LaravelPageBuilder\\": "src/"
+            "rafieathari6\\LaravelPageBuilder\\": "src/"
         }
     },
     "minimum-stability": "dev",
@@ -27,10 +27,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "HansSchouten\\LaravelPageBuilder\\ServiceProvider"
+                "rafieathari6\\LaravelPageBuilder\\ServiceProvider"
             ],
             "aliases": {
-                "PageBuilder": "HansSchouten\\LaravelPageBuilder\\Facade"
+                "PageBuilder": "rafieathari6\\LaravelPageBuilder\\Facade"
             }
         }
     }

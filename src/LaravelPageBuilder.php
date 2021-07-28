@@ -1,6 +1,6 @@
 <?php
 
-namespace HansSchouten\LaravelPageBuilder;
+namespace rafieathari6\LaravelPageBuilder;
 
 use PHPageBuilder\PHPageBuilder;
 
