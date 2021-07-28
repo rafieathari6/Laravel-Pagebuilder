@@ -20,7 +20,7 @@
         }
     ],
     "require": {
-        "hansschouten/phpagebuilder": "dev-rafie-thumb",
+        "hansschouten/phpagebuilder": "dev-rafie-thumb as 0.19.0",
         "php": ">=7.0"
     },
     "autoload": {
